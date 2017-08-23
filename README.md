@@ -4,7 +4,7 @@ Routes loader for expressjs.
 ## Installation
 
 ```javascript
-npm install express-route-loader
+npm install expressjs-routes-loader
 ```
 
 ## Usage
@@ -48,7 +48,7 @@ app.js
 const path = require('path')
 const express = require('express')
 const bodyParser = require('body-parser')
-const loader = require('express-routes-loader')
+const loader = require('expressjs-routes-loader')
 
 let port = process.env.port || 8080
 

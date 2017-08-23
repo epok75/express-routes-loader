@@ -1,3 +1,5 @@
 .gitignore
 test
 _temp
+_tmp
+.travis.yml

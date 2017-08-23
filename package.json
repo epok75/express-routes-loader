@@ -1,6 +1,6 @@
 {
-  "name": "express-routes-loader",
-  "version": "0.0.1",
+  "name": "expressjs-routes-loader",
+  "version": "0.0.3",
   "description": "dynamically load routes for your expressjs project",
   "main": "lib/index.js",
   "directories": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epok75/express-route-loader.git"
+    "url": "git+https://github.com/epok75/expressjs-routes-loader.git"
   },
   "keywords": [
     "expressjs",
@@ -23,9 +23,9 @@
   "author": "arnaud raulet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/epok75/express-routes-loader/issues"
+    "url": "https://github.com/epok75/expressjs-routes-loader/issues"
   },
-  "homepage": "https://github.com/epok75/express-routes-loader#readme",
+  "homepage": "https://github.com/epok75/expressjs-routes-loader#readme",
   "dependencies": {
     "debug": "^3.0.0",
     "path": "^0.12.7"

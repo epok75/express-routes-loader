@@ -1,0 +1,64 @@
+{
+  "name": "express-routes-loader",
+  "version": "0.0.1",
+  "description": "dynamically load routes for your expressjs project",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/standard",
+    "lint:fix": "./node_modules/.bin/standard --fix",
+    "test": "jest --no-cache --config=.jestrc.json --logHeapUsage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epok75/express-route-loader.git"
+  },
+  "keywords": [
+    "expressjs",
+    "node",
+    "javascript"
+  ],
+  "author": "arnaud raulet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epok75/express-routes-loader/issues"
+  },
+  "homepage": "https://github.com/epok75/express-routes-loader#readme",
+  "dependencies": {
+    "debug": "^3.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "globals": [],
+    "ignore": [
+      "node_modules"
+    ],
+    "envs": [
+      "node",
+      "jest"
+    ]
+  },
+  "jest": {
+    "bail": false,
+    "verbose": true,
+    "collectCoverage": true,
+    "coverageDirectory": "_tmp/coverage/",
+    "collectCoverageFrom": [
+      "**/lib/*.{js}"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      }
+    }
+  }
+}
